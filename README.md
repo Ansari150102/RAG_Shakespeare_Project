@@ -78,3 +78,10 @@ Approximately:
 - Top Frequent Speakers
 - Dialogue Distribution Across Acts
 - PCA-based Embedding Visualisation
+
+## Setup Instructions
+- git clone https://github.com/Ansari150102/RAG_Shakespeare_Project.git
+- cd RAG_Shakespeare_Project
+- pip install pandas numpy faiss-cpu sentence-transformers==2.7.0 transformers==4.41.2 torch matplotlib scikit-learn
+- python rag_cli.py
+
